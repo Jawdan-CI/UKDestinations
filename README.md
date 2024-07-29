@@ -7,6 +7,6 @@
 ### Test Commit (*Add the line "All Working" to your name to test adding to this repository*)
 
 - Jawdan Angelos: All Working
-- Akash Khanna: All working
+- Akash Khanna: All Working
 - Michael Obadun:
 
