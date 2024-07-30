@@ -114,6 +114,7 @@ p {
 
 /*---------------------------------------------------------CONTACT SECTION----*/
 
+
 .body-contact {
     background: url('../images/contact/uk.jpg') no-repeat center center / cover;
     background-attachment: fixed;
@@ -122,6 +123,7 @@ p {
 .hero-container {
     position: relative;
     top: 25px;
+
     height: 250px;
     width: 100%;
 }
@@ -140,7 +142,6 @@ p {
     transform: translate(-50%, -50%);
     font-family: 'Oswald', sans-serif;
 }
-
 
 .contact-heading {
     position: relative;
@@ -200,4 +201,3 @@ p {
     text-align: start;
     font-size: 1.2rem;
 }
-
