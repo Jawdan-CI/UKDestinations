@@ -61,10 +61,15 @@ footer {
     ;
 }
 
+.bg-dropdown-custom {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* ---------------------------------------- LINKS ---------------------------------------- */
 
-.navbar a:hover , .navbar-nav a:hover{
-    color:wheat;
+.navbar a:hover,
+.navbar-nav a:hover {
+    color: wheat;
 }
 
 /* ---------------------------------------- LONDON --------------------------------------- */
