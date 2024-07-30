@@ -43,6 +43,20 @@ main {
     min-height: 100vh;
 }
 
+.main-item {
+    margin: 5px 0;
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.welcome-message {
+    margin: 30vh auto;
+}
+
+.c-margin {
+    margin: 2rem auto;
+}
+
 /* -------- footer -------- */
 footer {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.0) 100%);
@@ -63,6 +77,18 @@ footer {
 
 .bg-dropdown-custom {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.m-3px {
+    margin: 3px;
+}
+
+.mt-200px-custom {
+    margin-top: 15vh;
+}
+
+.text-shadow-custom {
+    text-shadow: 1px 1px 8px black;
 }
 
 /* ---------------------------------------- LINKS ---------------------------------------- */
@@ -91,4 +117,5 @@ footer {
 .body-oxford {
     background: url('../images/oxford.webp') no-repeat center center/cover;
     background-attachment: fixed;
+    color: white;
 }
