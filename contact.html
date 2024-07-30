@@ -19,7 +19,7 @@
 </head>
 
 <body class="body-contact">
-
+<!---------------------------------------------------------------HEADER-->
     <header class="header container-fluid">
         <nav class="navbar navbar-expand">
           <div class="container-fluid">
@@ -51,7 +51,7 @@
           </div>
         </nav>
       </header>
-
+<!---------------------------------------------------------------HERO TEXT-->
     <main>
         <section class="contact-section">
             <div class="hero-container">
@@ -60,6 +60,7 @@
                 </div>
             </div>
             <div class="row contact-heading">
+<!---------------------------------------------------------------CONTACT DETAILS-->
                 <h1 class="text-center">CONTACT DETAILS:</h1>
             </div>
             <div class="row contact-container">
@@ -82,13 +83,43 @@
                         </div>
                     </div>
                 </div>
+<!---------------------------------------------------------------CONTACT FORM-->
                 <div class="col-12 col-lg-4 contact-form">
                     <h2>CONTACT FORM:</h2>
+                    <form id="contactForm" method="post" action="#"> 
+
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control"   
+                   id="name" name="name" required>
+                      </div>
+                  
+                      <div class="mb-3">
+                        <label   
+                   for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email"   
+                   required>
+                      </div>
+                  
+                      <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject"   
+                   required>
+                      </div>
+                  
+                      <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>   
+                  
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                      </div>
+                  
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
-
+<!---------------------------------------------------------------FOOTER-->
     <footer class="container-fluid">
         <div class="row py-5 px-md-5 px-sm-3 d-flex align-items-center">
     
