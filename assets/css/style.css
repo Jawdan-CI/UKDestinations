@@ -115,7 +115,7 @@ footer {
 /* ---------------------------------------- OXFORD --------------------------------------- */
 
 .body-oxford {
-    background: url('../images/oxford.webp') no-repeat center center/cover;
+    background: url('../images/oxford/oxford.webp') no-repeat center center/cover;
     background-attachment: fixed;
     color: white;
 }
