@@ -6,8 +6,8 @@ main {
 }
 
 .destinations h3,
-.destinations h2 {
-    font-family: 'Oswald', sans-serif !important;
+.hero-title {
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
@@ -68,13 +68,14 @@ section .container-fluid {
     text-shadow: 0px 10px 5px red;
 }
 
-.hero-text p {
+.hero-p {
     font-family: 'Oswald', sans-serif;
 }
 
 .hero-text {
     position: relative;
-    top: 250px;
+    top: 350px;
+    padding: 2rem 0;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
