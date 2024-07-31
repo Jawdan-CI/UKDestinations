@@ -208,7 +208,123 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
+#contactForm {
+    padding: 1rem 1rem;
+}
+
 footer {
     position: relative;
     top: 250px;
+}
+
+.map {
+    position: relative;
+    top: 250px;
+}
+
+.map .flight-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 0px;
+    margin: 0;
+}
+
+.map img {
+    position: relative;
+    box-shadow: 3px 3px 20px 2px rgb(0, 255, 242);
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    object-fit: cover;
+    z-index: 7;
+    height: 100%;
+}
+
+.map h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    background-color: rgba(0,0,255,0.4);
+    color: white;
+}
+
+.map h3 {
+    margin-bottom: 1rem;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-weight: 700;
+    z-index: 6;
+    box-shadow: 3px 0px 20px 2px black;
+}
+
+.map p {
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 0px 1px 1px black;
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: 1px 3px 3px black;
+}
+
+.map ul li {
+    list-style: none;
+}
+
+.map ul li a{
+    color: rgb(255, 230, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.map ul li a:hover {
+    color:rgb(0, 238, 255);
+    font-size: 1.52em;
+}
+
+.map p a {
+    font-weight: bold;
+    color: rgb(252, 127, 127);
+    transition: 0.5s ease-in-out;
+}
+
+#travelinfo {
+    position: relative;
+    left: 10px;
+}
+
+.map .item-list {
+    color:white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2rem;
+}
+
+.map h4 {
+    color: blue;
+    background-color: rgba(255,255,0,0.8);
+    z-index: 5;
+    box-shadow: 3px 0px 20px 2px white;
+}
+
+.flight-section {
+    background-color: rgba(66, 66, 253, 0.5);
+    padding: 0;
+    margin: 0;
+}
+
+.hotel-section {
+    background-color: rgba(4, 4, 189, 0.5);
+    padding: 0;
+    margin: 0;
+}
+
+.map .row>* {
+    padding: 0;
+}
+
+.navbar-nav {
+    margin-right: 70px;
+}
+
+.dropstart {
+    margin-right: 20px;
 }
