@@ -2,12 +2,99 @@
 
 # UK Destinations - *Team JAM*
 
-## About
+[![Screenshot of your website]([Link to screenshot image])]([Link to your deployed website])
 
-### Test Commit (*Add the line "All Working" to your name to test adding to this repository*)
+A front-end web application developed during a hackathon, for travel and tourist information at different UK Destinations, focusing on Accessibility and responsiveness.
 
+## Table of Contents
 
-- Jawdan Angelos: All Working!
-- Akash Khanna: All working
-- Michael Obadun: All Working 
+1. [Introduction](#introduction)
+2. [Project Overview](#project-overview)
+3. [Technologies Used](#technologies-used)
+4. [Key Features](#key-features)
+5. [Accessibility & Responsiveness](#accessibility--responsiveness)
+6. [User Experience (UX) Design](#user-experience-ux-design)
+7. [Testing & Validation](#testing--validation)
+8. [Agile Development Process](#agile-development-process)
+9. [Screenshots](#screenshots)
+
+## Introduction
+
+[Briefly describe project's purpose and the value it provides to users. Explain the problem it solves or the need it fulfills. Mention the target audience.]
+
+## Project Overview
+
+[Provide a high-level overview of project. Mention its development context (hackathon), highlight its core functionalities, and how it addresses the outcomes mentioned.]
+
+## Technologies Used
+
+* **Front-End:** HTML, CSS, Bootstrap 5.3
+* **Version Control:** Git, GitHub
+* **Deployment:** GitHub Pages
+* **Testing:** W3C HTML Validator, Jigsaw CSS Validator
+
+## Key Features
+
+* **Navigation:** Intuitive navigation menu for seamless user experience.
+* **Accessibility:** Prioritizes accessibility with proper color contrast, semantic markup, and alt text for images.
+* **Responsiveness:**  Adapts to various screen sizes and devices using CSS media queries.
+* **Interactive Elements:** Incorporates audio/video controls for engaging content.
+* **[Other Features]:** List any other significant features you implemented.
+
+## Accessibility & Responsiveness
+
+[Elaborate on how we achieved accessibility standards (WCAG) and ensured responsiveness across devices.]
+
+## User Experience (UX) Design
+
+[Detail UX design choices. Explain how content structured for clarity, used headers effectively, and chose backgrounds and graphics to enhance readability.]
+
+## Testing & Validation
+
+* **W3C Validation:**  
+    * [Results of HTML validation]
+    * [Link to validation report]
+* **Jigsaw Validation:** 
+    * [Results of CSS validation]
+    * [Link to validation report]
+* **Responsiveness Testing:**  
+    * [List of devices/screen sizes tested]
+    * [Any issues found and resolved]
+* **Cross-Browser Compatibility:** 
+    * [List of browsers tested]
+    * [Any compatibility issues found and resolved]
+* **Link Validation:** 
+    * [How link validation was performed (manual/automated)]
+    * [Any broken links found and fixed]
+* **Image Optimization:** 
+    * [Tools or techniques used for image optimization]
+
+## Agile Development Process
+
+* **Agile Methodology:**  Used a Kanban Project Board on Github
+    * [Brief description of how the tool was used to manage tasks, track progress, etc.]
+* **User Stories:** 
+    * [Example of a user story (optional)]
+    * [How user stories were used to guide development]
+
+## Screenshots
+
+* **[Screenshot 1]:** 
+    * [Name of the screenshot (e.g., Homepage.png)]
+    * [Description of what the screenshot shows]
+* **[Screenshot 2]:**
+    * [Name of the screenshot (e.g., london.png)]
+    * [Description of what the screenshot shows]
+* **[Screenshot 3]:**
+    * [Name of the screenshot (e.g., Contact Page.png)]
+    * [Description of what the screenshot shows]
+* **[Additional Screenshots]:**
+    * [Include any other relevant screenshots, such as responsive design examples or specific features]
+
+### Credits
+
+**Team JAM**
+- Jawdan Angelos
+- Akash Khanna
+- Michael Obadun
 
