@@ -90,6 +90,21 @@ footer {
     text-align: justify;
 }
 
+.image-margin {
+    margin: 2rem auto;
+}
+
+@media (min-width: 992px) {
+    .rounded-start-lg {
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+    }
+    .rounded-end-lg {
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+      }
+  }
+
 /* ---------------------------------------- LINKS ---------------------------------------- */
 
 .navbar a:hover,
@@ -106,10 +121,21 @@ footer {
 
 .home-item-london {
     padding: 2rem 2rem;
-    background-color: rgba(200, 32, 32, 0.45);
+    background-color: rgba(255, 79, 79, 1);
+    border-radius: 25px;
 }
 
-/* .wlcm-head-london { } */
+.london-head-box {
+    background-color: rgba(40, 40, 40, 1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px 2px white;
+}
+
+.london-head-text {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 4px 2.5px red;
+    text-transform: uppercase;
+}
 
 /* -------------------------------------- BIRMINGHAM ------------------------------------- */
 
@@ -121,9 +147,12 @@ footer {
 .home-item-birmingham {
     padding: 2rem 2rem;
     background-color: rgba(52, 186, 103, 0.45);
+    border-radius: 25px;
 }
 
-/* .wlcm-head-birmingham { } */
+/* .birmingham-head-box { } */
+
+/* .birmingham-head-text { } */
 
 /* ---------------------------------------- OXFORD --------------------------------------- */
 
@@ -143,6 +172,7 @@ footer {
 .home-item-oxford {
     padding: 2rem 2rem;
     background-color: rgba(255, 193, 7, 0.8);
+    border-radius: 25px;
 }
 
 .main-item-oxford {
@@ -153,3 +183,7 @@ footer {
 .c-margin {
     margin: 2rem auto;
 }
+
+/* .oxford-head-box { } */
+
+/* .oxford-head-text { } */
