@@ -20,7 +20,7 @@ main {
 }
 
 .body-london {
-    background: url('../images/london/london.jpeg') no-repeat center center / cover;
+    background: url('../images/london/londonbackground.jpg') no-repeat center center / cover;
     background-attachment: fixed;
 }
 
