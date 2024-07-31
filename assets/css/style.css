@@ -48,10 +48,12 @@ main {
 
 .welcome-message-home {
     margin: 25vh auto;
-    background-color: rgba(7, 255, 176, 0.789);
+    background-color: rgba(0, 177, 226, 0.8);
     text-shadow: 1px 1px 1.5px black;
     padding: 2%;
 }
+
+
 
 /* -------- footer -------- */
 footer {
@@ -112,6 +114,25 @@ footer {
     color: wheat;
 }
 
+.london-box-head, .birmingham-box-head, .oxford-box-head, .box-img {
+    transition: 0.15s ease-in-out;
+}
+
+.hover-expand:hover {
+    .london-box-head {
+        transform: scale(1.03);
+    }
+    .birmingham-box-head {
+        transform: scale(1.03);
+    }
+    .oxford-box-head {
+        transform: scale(1.03);
+    }
+    .box-img {
+        transform: scale(1.03);
+    }
+}
+
 /* ---------------------------------------- LONDON --------------------------------------- */
 
 .body-london {
@@ -119,20 +140,16 @@ footer {
     background-attachment: fixed;
 }
 
-.home-item-london {
+.london-box {
     padding: 2rem 2rem;
     background-color: rgba(255, 79, 79, 1);
     border-radius: 25px;
 }
 
-.london-head-box {
+.london-box-head {
     background-color: rgba(40, 40, 40, 1);
     border-radius: 20px;
     box-shadow: 1px 1px 30px 2px white;
-}
-
-.london-head-text {
-    font-family: 'Oswald', sans-serif;
     text-shadow: 1px 4px 2.5px red;
     text-transform: uppercase;
 }
@@ -144,15 +161,18 @@ footer {
     background-attachment: fixed;
 }
 
-.home-item-birmingham {
+.birmingham-box {
     padding: 2rem 2rem;
-    background-color: rgba(52, 186, 103, 0.45);
+    background-color: hsl(46, 80%, 90%);
     border-radius: 25px;
 }
 
-/* .birmingham-head-box { } */
-
-/* .birmingham-head-text { } */
+.birmingham-box-head {
+    background-color: rgb(104, 61, 5);
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 2px black;
+    text-transform: uppercase;
+}
 
 /* ---------------------------------------- OXFORD --------------------------------------- */
 
@@ -169,12 +189,6 @@ footer {
     padding: 2%;
 }
 
-.home-item-oxford {
-    padding: 2rem 2rem;
-    background-color: rgba(255, 193, 7, 0.8);
-    border-radius: 25px;
-}
-
 .main-item-oxford {
     padding: 2rem 2rem;
     background-color: rgba(0, 0, 0, 0.45);
@@ -184,6 +198,21 @@ footer {
     margin: 2rem auto;
 }
 
-/* .oxford-head-box { } */
+#cch-carousel:hover, #rcm-carousel:hover, #bgdn-carousel:hover {
+    transform: scale(1.05);
+}
 
-/* .oxford-head-text { } */
+/* -------- home -------- */
+
+.oxford-box {
+    padding: 2rem 2rem;
+    background-color: rgba(255, 193, 7, 0.8);
+    border-radius: 25px;
+}
+
+.oxford-box-head {
+    background-color: rgba(40, 40, 40, 1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 2px black;
+    text-transform: uppercase;
+}
