@@ -94,6 +94,17 @@ footer {
     margin: 2rem auto;
 }
 
+@media (min-width: 992px) {
+    .rounded-start-lg {
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+    }
+    .rounded-end-lg {
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+      }
+  }
+
 /* ---------------------------------------- LINKS ---------------------------------------- */
 
 .navbar a:hover,
@@ -136,6 +147,7 @@ footer {
 .home-item-birmingham {
     padding: 2rem 2rem;
     background-color: rgba(52, 186, 103, 0.45);
+    border-radius: 25px;
 }
 
 /* .birmingham-head-box { } */
@@ -160,6 +172,7 @@ footer {
 .home-item-oxford {
     padding: 2rem 2rem;
     background-color: rgba(255, 193, 7, 0.8);
+    border-radius: 25px;
 }
 
 .main-item-oxford {
