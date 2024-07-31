@@ -64,6 +64,8 @@ section .container-fluid {
     object-fit: fill;
     box-shadow: 1px 1px 30px 2px white;
     border-radius: 15px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hero h1 {
