@@ -18,6 +18,7 @@ body {
 .body-home {
     background: url('../images/image.webp') no-repeat center center/cover;
     background-attachment: fixed;
+    color: white;
 }
 
 /* -------- header -------- */
@@ -50,8 +51,11 @@ main {
     background-color: rgba(0, 0, 0, 0.45);
 }
 
-.welcome-message {
-    margin: 30vh auto;
+.welcome-message-main {
+    margin: 25vh auto;
+    background-color: rgba(7, 255, 176, 0.789);
+    text-shadow: 1px 1px 1.5px black;
+    padding: 2%;
 }
 
 .c-margin {
@@ -118,4 +122,11 @@ footer {
     background: url('../images/oxford/oxford.webp') no-repeat center center/cover;
     background-attachment: fixed;
     color: white;
+}
+
+.welcome-message-oxford {
+    margin: 25vh auto;
+    background-color: rgba(255, 193, 7, 0.8);
+    text-shadow: 1px 1px 1.5px black;
+    padding: 2%;
 }
