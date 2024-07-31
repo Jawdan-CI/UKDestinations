@@ -66,6 +66,7 @@ section .container-fluid {
     border-radius: 15px;
     width: 100%;
     object-fit: cover;
+    transition: 0.5s ease-in-out;
 }
 
 .hero h1 {
@@ -112,6 +113,15 @@ section .container-fluid {
     transition: 0.3s ease-in-out;
 }
 
+.image-link {
+    transition: 0.5s ease-in-out;
+}
+
+.image-link:hover,
+.destinations img:hover {
+    transform: scale(1.05);
+}
+
 .map {
     position: relative;
     top: 250px;
@@ -128,9 +138,12 @@ section .container-fluid {
     border-radius: 25px;
     box-shadow: 2px -2px 20px 2px rgb(160, 160, 255);
     bottom: 25px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.map img:hover {
+    transform: scale(1.02);
 }
 
 .map h2 {
@@ -164,11 +177,23 @@ section .container-fluid {
     color: rgb(255, 148, 148);
     font-weight: bold;
     font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.map ul li a:hover {
+    color:rgb(0, 238, 255);
+    font-size: 1.52em;
 }
 
 .map p a {
     font-weight: bold;
     color: rgb(252, 127, 127);
+    transition: 0.5s ease-in-out;
+}
+
+.map p a:hover {
+    color:rgb(0, 238, 255);
+    font-size: 1.02em;
 }
 
 #travelinfo {
