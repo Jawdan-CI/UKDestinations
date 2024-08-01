@@ -94,31 +94,38 @@ Interactive Elements: Engaging features such as maps and links to enhance user i
 Validation: HTML and CSS have been validated using W3C validators to ensure standards compliance.
 
 * **W3C Validation:**  
-    * [some errors occured]
-    * [https://validator.w3.org/nu/?doc=https%3A%2F%2Fjawdanci-ukdestinations-m6rkm31ma8o.ws.codeinstitute-ide.net%2F]
+    * No Errors, Bootstrap Related Warnings
 * **Jigsaw Validation:** 
-    * [Results of CSS validation]
-    * [Link to validation report]
+    * No Errors!
 * **Responsiveness Testing:**  
-    * [apple 12 pro]
-    * [no issuses found]
+    * iPhone 12 Pro, iPhone 13, Pixel 7 Pro (Android)
+    * No Issues were present across all of the tested devices.
 * **Cross-Browser Compatibility:** 
-    * [tested in edge, google chrome, safari and fire fox]
-    * [no issuse found]
+    * Edge, Google Chrome, Firefox
+    * All tested with no issues
 * **Link Validation:** 
-    * [link validation was performed manually by checking the website on each browser]
-    * [no broken links]
+    * Links All Work as expected, links to external websites target a blank page.
+    * No broken links
 * **Image Optimization:** 
     * Large images have been compressed and converted to Webp format
 
 
 ## Agile Development Process
 
-* **Agile Methodology:**  Used a Kanban Project Board on Github
-    * [Brief description of how the tool was used to manage tasks, track progress, etc.]
+* **Agile Methodology:**
+    * Used a Kanban Project Board on Github
+    * A stand up and stand down meeting took place daily. We wrote user stories and added into project board. Team Lead, assigned the team into different user stories to work on in a prioritized order. 
 * **User Stories:** 
-    * [As a user i want the website to host many pictures showcasing the cities attraction, so that i have a better idea of what to expect when i get there]
-    * [We based the functionality of our website around our user stories]
+    * As a user, I want the website to have a clear and intuitive layout so I can easily find information about different cities and destinations. 
+    * As a user, I want to be able to easily navigate between the pages for London, Birmingham, and Oxford so I can compare different destinations.
+    * As a user, I want to be able to easily contact the website owners with questions or feedback so I can get help on any questions I might have
+    * As a user, I want each destination page to have detailed information, including a description, images, and key facts, so I can decide if it's worth visiting.
+    * As a user, I want each city page to have a visually appealing banner image and a brief overview of the city to give me a quick impression.
+    * USER STORY: Buttons and links follow colour theme.
+    * USER STORY: maps
+    * USER STORY: Page load times
+ 
+      SEE CLOSED ISSUES FOR MORE!
 
 ## Screenshots
 
