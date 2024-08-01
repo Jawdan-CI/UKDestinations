@@ -2,7 +2,7 @@
 
 # UK Destinations - *Team JAM*
 
-![Front Page](https://github.com/Jawdan-CI/UKDestinations/tree/main/assets/images/README/indexpage.png)
+![Front Page](https://github.com/Jawdan-CI/UKDestinations/blob/main/assets/images/README/indexpage.png)
 
 A front-end web application developed during a hackathon, for travel and tourist information at different UK Destinations, focusing on Accessibility and responsiveness.
 
