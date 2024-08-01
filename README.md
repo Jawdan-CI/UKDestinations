@@ -122,8 +122,6 @@ Validation: HTML and CSS have been validated using W3C validators to ensure stan
 
 ## Screenshots
 
-![mobile view](https://github.com/Jawdan-CI/UKDestinations/blob/main/assets/images/README/yourimage.jpg)mobile view.PNG
-
 ### **Wireframes**
  #### Jawdon - London Page and Contact Page
  ![Wireframe](assets/images/README/londonwireframe-mobile_720.png)
@@ -134,7 +132,11 @@ Validation: HTML and CSS have been validated using W3C validators to ensure stan
  ![Wireframe](assets/images/README/wf-akash-sm.png)
  ![Wireframe](assets/images/README/wf-akash-lg-1.png)
  ![Wireframe](assets/images/README/wf-akash-lg-2.png)
+
  #### Michael - Birmingham page
+ ![Wireframe](assets/images/README/mobile%20view.PNG)
+ ![Wireframe](assets/images/README/desktop%20view.PNG)
+
 
 * **[Screenshot 1]:** 
     * [Name of the screenshot (e.g., Homepage.png)]
