@@ -144,19 +144,6 @@ Validation: HTML and CSS have been validated using W3C validators to ensure stan
  ![Wireframe](assets/images/README/mobile%20view.PNG)
  ![Wireframe](assets/images/README/desktop%20view.PNG)
 
-
-* **[Screenshot 1]:** 
-    * [Name of the screenshot (e.g., Homepage.png)]
-    * [Description of what the screenshot shows]
-* **[Screenshot 2]:**
-    * [Name of the screenshot (e.g., london.png)]
-    * [Description of what the screenshot shows]
-* **[Screenshot 3]:**
-    * [Name of the screenshot (e.g., Contact Page.png)]
-    * [Description of what the screenshot shows]
-* **[Additional Screenshots]:**
-    * [Include any other relevant screenshots, such as responsive design examples or specific features]
-
 ### Credits
 
 **Team JAM**
