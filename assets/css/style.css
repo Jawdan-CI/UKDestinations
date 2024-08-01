@@ -229,3 +229,41 @@ footer {
     box-shadow: 1px 1px 20px 2px black;
     text-transform: uppercase;
 }
+
+/* ---------------------------------------- MEDIA SECTION / INDEX --------------------------------------- */
+
+.media-section {
+    background-color: rgb(3, 3, 143);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.video-container {
+    background-color: rgb(38, 38, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container video {
+    padding-bottom: 1.7rem;
+}
+
+.text-container {
+    background-color: rgb(48, 68, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.text-container p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 1.5rem;
+}
