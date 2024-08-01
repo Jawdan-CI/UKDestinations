@@ -93,6 +93,9 @@ Interactive Elements: Engaging features such as maps and links to enhance user i
 * **Responsive Testing:** Various screen sizes and devices have been tested to guarantee a consistent experience.
 Validation: HTML and CSS have been validated using W3C validators to ensure standards compliance.
 
+* **Lighthouse**
+    * ![lighthouse scores](assets/images/README/Lighthousescores.png)
+
 * **W3C Validation:**  
     * No Errors, Bootstrap Related Warnings
 * **Jigsaw Validation:** 
