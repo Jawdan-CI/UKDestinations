@@ -53,30 +53,30 @@ This website will conatin images, links to external web pages, video and overall
 ## Testing & Validation
 
 * **W3C Validation:**  
-    * [Results of HTML validation]
-    * [Link to validation report]
+    * [some errors occured]
+    * [https://validator.w3.org/nu/?doc=https%3A%2F%2Fjawdanci-ukdestinations-m6rkm31ma8o.ws.codeinstitute-ide.net%2F]
 * **Jigsaw Validation:** 
     * [Results of CSS validation]
     * [Link to validation report]
 * **Responsiveness Testing:**  
-    * [List of devices/screen sizes tested]
-    * [Any issues found and resolved]
+    * [apple 12 pro]
+    * [no issuses found]
 * **Cross-Browser Compatibility:** 
-    * [List of browsers tested]
-    * [Any compatibility issues found and resolved]
+    * [tested in edge, google chrome, safari and fire fox]
+    * [no issuse found]
 * **Link Validation:** 
-    * [How link validation was performed (manual/automated)]
-    * [Any broken links found and fixed]
+    * [link validation was performed manually by checking the website on each browser]
+    * [no broken links]
 * **Image Optimization:** 
-    * [Tools or techniques used for image optimization]
+    * [kept my image to a reasonable size]
 
 ## Agile Development Process
 
 * **Agile Methodology:**  Used a Kanban Project Board on Github
     * [Brief description of how the tool was used to manage tasks, track progress, etc.]
 * **User Stories:** 
-    * [Example of a user story (optional)]
-    * [How user stories were used to guide development]
+    * [As a user i want the website to host many pictures showcasing the cities attraction, so that i have a better idea of what to expect when i get there]
+    * [We based the functionality of our website around our user stories]
 
 ## Screenshots
 
