@@ -79,7 +79,7 @@ This website will conatin images, links to external web pages, video and overall
     * [We based the functionality of our website around our user stories]
 
 ## Screenshots
-
+![mobile view](https://github.com/Jawdan-CI/UKDestinations/blob/main/assets/images/README/yourimage.jpg)mobile view.PNG
 * **[Screenshot 1]:** 
     * [Name of the screenshot (e.g., Homepage.png)]
     * [Description of what the screenshot shows]
