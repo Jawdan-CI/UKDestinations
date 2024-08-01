@@ -19,9 +19,9 @@ A front-end web application developed during a hackathon, for travel and tourist
 9. [Screenshots](#screenshots)
 
 ## Introduction
-A website that showcase three major cities in the uk. London, Birmingham and oxford
 
-[Briefly describe project's purpose and the value it provides to users. Explain the problem it solves or the need it fulfills. Mention the target audience.]
+
+[A website that showcase three major cities in the uk. London, Birmingham and oxford]
 
 ## Project Overview
 This website will conatin images, links to external web pages, video and overall information about each city
