@@ -215,7 +215,7 @@ footer {
     box-shadow: 1px 1px 20px 2px black;
 }
 
-/* -------- home -------- */
+/* -------- home page -------- */
 
 .oxford-box {
     padding: 2rem 2rem;
@@ -228,8 +228,68 @@ footer {
     border-radius: 20px;
     box-shadow: 1px 1px 20px 2px black;
     text-transform: uppercase;
+
+/* -------- map -------- */
+
+.map-oxf {
+    margin: 20vh 0 0 0;
 }
 
+.map-oxf .container {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.map-oxf img {
+    border-radius: 1.5rem;
+    box-shadow: 2px -2px 20px 2px black;
+    width: 100%;
+    transition: 0.15s ease-in-out;
+}
+
+.map-oxf img:hover {
+    transform: scale(1.02);
+}
+
+.map-oxf h1 {
+    background-color: rgba(255, 193, 7, 0.8);
+    margin-bottom: 3rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.map-oxf h2 {
+    margin-bottom: 1rem;
+    background-color: rgba(255, 193, 7, 0.8);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.map-oxf p {
+    padding: 0.5rem 1rem;
+}
+
+.map-oxf ul li a{
+    color: rgb(255, 148, 148);
+    transition: 0.15s ease-in-out;
+}
+
+.map-oxf p a {
+    color: rgb(252, 127, 127);
+    transition: 0.15s ease-in-out;
+}
+
+footer {
+    position: relative;
+    top: 15vh;
+}
+
+.map-oxf a:hover {
+    color: wheat;
+}
+  
 /* ---------------------------------------- MEDIA SECTION / INDEX --------------------------------------- */
 
 .media-section {
@@ -266,4 +326,3 @@ footer {
     left: 50%;
     transform: translate(-50%, -30%);
     font-size: 1.5rem;
-}
