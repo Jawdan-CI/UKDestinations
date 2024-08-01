@@ -10,7 +10,6 @@
 
 body {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
 }
@@ -118,22 +117,12 @@ footer {
     transition: 0.15s ease-in-out;
 }
 
-.hover-expand:hover {
-    .london-box-head {
-        transform: scale(1.03);
-    }
-    .birmingham-box-head {
-        transform: scale(1.03);
-    }
-    .oxford-box-head {
-        transform: scale(1.03);
-    }
-    .box-img {
-        transform: scale(1.03);
-    }
-    .oxf-readmore {
-        transform: scale(1.03);
-    }
+.hover-expand:hover .london-box-head,
+.hover-expand:hover .birmingham-box-head,
+.hover-expand:hover .oxford-box-head,
+.hover-expand:hover .box-img,
+.hover-expand:hover .oxf-readmore {
+    transform: scale(1.03);
 }
 
 /* ---------------------------------------- LONDON --------------------------------------- */
