@@ -20,10 +20,11 @@ A front-end web application developed during a hackathon, for travel and tourist
 
 ## Introduction
 
-[Briefly describe project's purpose and the value it provides to users. Explain the problem it solves or the need it fulfills. Mention the target audience.]
+
+[A website that showcase three major cities in the uk. London, Birmingham and oxford]
 
 ## Project Overview
-
+This website will conatin images, links to external web pages, video and overall information about each city
 [Provide a high-level overview of project. Mention its development context (hackathon), highlight its core functionalities, and how it addresses the outcomes mentioned.]
 
 ## Technologies Used
@@ -43,11 +44,11 @@ A front-end web application developed during a hackathon, for travel and tourist
 
 ## Accessibility & Responsiveness
 
-[Elaborate on how we achieved accessibility standards (WCAG) and ensured responsiveness across devices.]
+[We made this website so that it is responsive on small, medium and large scren sizes]
 
 ## User Experience (UX) Design
 
-[Detail UX design choices. Explain how content structured for clarity, used headers effectively, and chose backgrounds and graphics to enhance readability.]
+[We implimented a i simple UX design and dedicated each page to a particular city]
 
 ## Testing & Validation
 
