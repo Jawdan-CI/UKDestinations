@@ -114,7 +114,7 @@ footer {
     color: wheat;
 }
 
-.london-box-head, .birmingham-box-head, .oxford-box-head, .box-img {
+.london-box-head, .birmingham-box-head, .oxford-box-head, .box-img, .oxf-readmore {
     transition: 0.15s ease-in-out;
 }
 
@@ -129,6 +129,9 @@ footer {
         transform: scale(1.03);
     }
     .box-img {
+        transform: scale(1.03);
+    }
+    .oxf-readmore {
         transform: scale(1.03);
     }
 }
@@ -198,11 +201,21 @@ footer {
     margin: 2rem auto;
 }
 
+#cch-carousel, #rcm-carousel, #bgdn-carousel {
+    transition: 0.15s ease-in-out;
+}
+
 #cch-carousel:hover, #rcm-carousel:hover, #bgdn-carousel:hover {
     transform: scale(1.05);
 }
 
-/* -------- home -------- */
+.oxf-readmore {
+    background-color: rgba(255, 193, 7, 0.8);
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+/* -------- home page -------- */
 
 .oxford-box {
     padding: 2rem 2rem;
@@ -215,4 +228,102 @@ footer {
     border-radius: 20px;
     box-shadow: 1px 1px 20px 2px black;
     text-transform: uppercase;
+}
+/* -------- map -------- */
+
+.map-oxf {
+    margin: 20vh 0 0 0;
+}
+
+.map-oxf .container {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.map-oxf img {
+    border-radius: 1.5rem;
+    box-shadow: 2px -2px 20px 2px black;
+    width: 100%;
+    transition: 0.15s ease-in-out;
+}
+
+.map-oxf img:hover {
+    transform: scale(1.02);
+}
+
+.map-oxf h1 {
+    background-color: rgba(255, 193, 7, 0.8);
+    margin-bottom: 3rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.map-oxf h2 {
+    margin-bottom: 1rem;
+    background-color: rgba(255, 193, 7, 0.8);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 2px black;
+}
+
+.map-oxf p {
+    padding: 0.5rem 1rem;
+}
+
+.map-oxf ul li a{
+    color: rgb(255, 148, 148);
+    transition: 0.15s ease-in-out;
+}
+
+.map-oxf p a {
+    color: rgb(252, 127, 127);
+    transition: 0.15s ease-in-out;
+}
+
+footer {
+    position: relative;
+    top: 15vh;
+}
+
+.map-oxf a:hover {
+    color: wheat;
+}
+  
+/* ---------------------------------------- MEDIA SECTION / INDEX --------------------------------------- */
+
+.media-section {
+    background-color: rgb(3, 3, 143);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.video-container {
+    background-color: rgb(38, 38, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container video {
+    padding-bottom: 1.7rem;
+}
+
+.text-container {
+    background-color: rgb(48, 68, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.text-container p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 1.5rem;
 }
